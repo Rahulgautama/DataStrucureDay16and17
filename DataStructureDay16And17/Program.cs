@@ -4,31 +4,22 @@ namespace DataStructureDay16And17
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            string[] names = { "pravin Choudhary", "Chaitra", "Rahul Gautam", "Name Another" };
-            InsertSort(names);
-            foreach (var item in names)
-            {
-                Console.WriteLine(item);
-            }
-        }
-
-        static void InsertSort(IComparable[] array)
-        {
-            int i, j;
-
-            for (i = 1; i < array.Length; i++)
-            {
-                IComparable value = array[i];
-                j = i - 1;
-                while ((j >= 0) && (array[j].CompareTo(value) > 0))
-                {
-                    array[j + 1] = array[j];
-                    j--;
-                }
-                array[j + 1] = value;
-            }
-        }
+        static void Main(string[] args) { 
+        int[] arr = { 78, 55, 45, 98, 13 };
+        int temp;
+         for (int j = 0; j <= arr.Length - 2; j++) {
+            for (int i = 0; i <= arr.Length - 2; i++) {
+               if (arr[i] > arr[i + 1]) {
+                  temp= arr[i + 1];
+                  arr[i + 1] = arr[i];
+                  arr[i] = temp;
+               }
+}
+         }
+         Console.WriteLine("Sorted:");
+         foreach (int p in arr)
+            Console.Write(p + " ");
+         Console.Read();
+      }
     }
 }
