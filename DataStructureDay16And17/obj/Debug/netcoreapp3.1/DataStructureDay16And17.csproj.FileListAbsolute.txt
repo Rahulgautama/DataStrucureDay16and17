@@ -1,0 +1,11 @@
+D:\DLS-RFP-278\Project\DataStructureDay16And17\DataStructureDay16And17\bin\Debug\netcoreapp3.1\DataStructureDay16And17.exe
+D:\DLS-RFP-278\Project\DataStructureDay16And17\DataStructureDay16And17\bin\Debug\netcoreapp3.1\DataStructureDay16And17.deps.json
+D:\DLS-RFP-278\Project\DataStructureDay16And17\DataStructureDay16And17\bin\Debug\netcoreapp3.1\DataStructureDay16And17.runtimeconfig.json
+D:\DLS-RFP-278\Project\DataStructureDay16And17\DataStructureDay16And17\bin\Debug\netcoreapp3.1\DataStructureDay16And17.runtimeconfig.dev.json
+D:\DLS-RFP-278\Project\DataStructureDay16And17\DataStructureDay16And17\bin\Debug\netcoreapp3.1\DataStructureDay16And17.dll
+D:\DLS-RFP-278\Project\DataStructureDay16And17\DataStructureDay16And17\bin\Debug\netcoreapp3.1\DataStructureDay16And17.pdb
+D:\DLS-RFP-278\Project\DataStructureDay16And17\DataStructureDay16And17\obj\Debug\netcoreapp3.1\DataStructureDay16And17.csprojAssemblyReference.cache
+D:\DLS-RFP-278\Project\DataStructureDay16And17\DataStructureDay16And17\obj\Debug\netcoreapp3.1\DataStructureDay16And17.AssemblyInfoInputs.cache
+D:\DLS-RFP-278\Project\DataStructureDay16And17\DataStructureDay16And17\obj\Debug\netcoreapp3.1\DataStructureDay16And17.AssemblyInfo.cs
+D:\DLS-RFP-278\Project\DataStructureDay16And17\DataStructureDay16And17\obj\Debug\netcoreapp3.1\DataStructureDay16And17.dll
+D:\DLS-RFP-278\Project\DataStructureDay16And17\DataStructureDay16And17\obj\Debug\netcoreapp3.1\DataStructureDay16And17.pdb
