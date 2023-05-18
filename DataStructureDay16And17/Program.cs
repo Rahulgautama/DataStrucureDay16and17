@@ -6,33 +6,29 @@ namespace DataStructureDay16And17
     {
         static void Main(string[] args)
         {
-            string str = "ABC";
-            char[] charArry = str.ToCharArray();
-            Permute(charArry, 0, 2);           
-        }
-
-        static void Permute(char[] arry, int i, int n)
-        {
-            int j;
-            if (i == n)
-                Console.WriteLine(arry);
-            else
+            string[] names = { "pravin Choudhary", "Chaitra", "Rahul Gautam", "Name Another" };
+            InsertSort(names);
+            foreach (var item in names)
             {
-                for (j = i; j <= n; j++)
-                {
-                    Swap(ref arry[i], ref arry[j]);
-                    Permute(arry, i + 1, n);
-                    Swap(ref arry[i], ref arry[j]); //backtrack
-                }
+                Console.WriteLine(item);
             }
         }
 
-        static void Swap(ref char a, ref char b)
+        static void InsertSort(IComparable[] array)
         {
-            char tmp;
-            tmp = a;
-            a = b;
-            b = tmp;
+            int i, j;
+
+            for (i = 1; i < array.Length; i++)
+            {
+                IComparable value = array[i];
+                j = i - 1;
+                while ((j >= 0) && (array[j].CompareTo(value) > 0))
+                {
+                    array[j + 1] = array[j];
+                    j--;
+                }
+                array[j + 1] = value;
+            }
         }
     }
 }
